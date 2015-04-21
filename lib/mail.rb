@@ -66,6 +66,7 @@ module Mail # :doc:
   require 'mail/network'
 
   require 'mail/message'
+  require 'mail/stream_message'
   require 'mail/part'
   require 'mail/header'
   require 'mail/parts_list'

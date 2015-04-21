@@ -18,7 +18,7 @@ module Mail
     #
     # Encodings.register "base64", Mail::Encodings::Base64
     def Encodings.register(name, cls)
-        @transfer_encodings[get_name(name)] = cls
+      @transfer_encodings[get_name(name)] = cls
     end
 
     # Is the encoding we want defined?

@@ -1,5 +1,6 @@
 /.bundle
 /.ruby-version
+/.ruby-gemset
 /.rvmrc
 /bin
 /coverage
@@ -14,8 +15,10 @@
 *.rbc
 *.swp
 .idea
+.rspec
+.projectile
 .rbx
 /.idea
 /.rbenv-vars
-/.ruby-version
 gemfiles/*.lock
+*~
